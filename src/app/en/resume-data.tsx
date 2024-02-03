@@ -1,23 +1,17 @@
+import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 import {
-  AmbitLogo,
   BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
   ClevertechLogo,
   ConsultlyLogo,
   EvercastLogo,
-  Howdy,
   JarockiMeLogo,
   JojoMobileLogo,
   Minimal,
-  MobileVikingsLogo,
   MonitoLogo,
   NSNLogo,
   ParabolLogo,
-  TastyCloudLogo,
   YearProgressLogo,
 } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Đào Ngọc Thành",
@@ -55,8 +49,8 @@ export const RESUME_DATA = {
     {
       school: "Đại Học Bách Khoa Hà Nội",
       degree: "Bằng giỏi kỹ sư khoa Công Nghệ Thông Tin phân hệ ICT, GPA: 3.32",
-      start: "2007",
-      end: "2010",
+      start: "2016",
+      end: "2020",
     },
   ],
   work: [
@@ -66,7 +60,7 @@ export const RESUME_DATA = {
       badges: [],
       title: "Lập trình viên Fullstack -> Tổ trưởng tổ Backend",
       logo: ParabolLogo,
-      start: "07/2021",
+      start: "7/2021",
       end: "Nay",
       description:
         "Phát triển các tính năng mới, dẫn dắt đội nhóm, nghiên cứu, lựa chọn cũng như xây dựng base dự án cho phòng, đào tạo các thành viên mới. Công nghệ: React/Nextjs, TypeScript, Golang, Antd, Shadcn-ui, Trpc, Drizzle, Mysql, Docker.",
@@ -77,10 +71,10 @@ export const RESUME_DATA = {
       badges: [],
       title: "Kỹ sư giải pháp",
       logo: ClevertechLogo,
-      start: "09/2020",
-      end: "06-2021",
+      start: "9/2020",
+      end: "6/2021",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "Nghiên cứu giải pháp cho những vấn đề thường gặp của các đội nhóm phát triển sản phẩm. Công nghệ: Nomad, Consul, Redis, Kafka, RabbitMQ.",
     },
     {
       company: "OpenTechiz",
@@ -88,10 +82,10 @@ export const RESUME_DATA = {
       badges: [],
       title: "Lập trình viên Fullstack",
       logo: JojoMobileLogo,
-      start: "08/2019",
-      end: "08/2020",
+      start: "8/2019",
+      end: "8/2020",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "Phát triển mô đun trong ứng dụng hẹn hò Mektoube, cho phép quản trị viên phê duyệt ảnh do người dùng tải lên.",
     },
     {
       company: "VNSolution.,LTD",
@@ -99,9 +93,10 @@ export const RESUME_DATA = {
       badges: [],
       title: "Lập trình viên Frontend",
       logo: NSNLogo,
-      start: "06/2018",
-      end: "02/2019",
-      description: "Creating and testing software for LTE base stations",
+      start: "6/2018",
+      end: "2/2019",
+      description:
+        "Phát triển giao diện cho các trang web giới thiệu sản phẩm, trang web quản trị theo yêu cầu từ khách hàng",
     },
   ],
   skills: [
@@ -112,6 +107,8 @@ export const RESUME_DATA = {
     "React/Next.js",
     "Node.js",
     "Bun",
+    "Antd",
+    "Shadcn-ui",
     "GraphQL",
     "Websocket/Socketio",
     "RestAPI/Trpc",
@@ -124,8 +121,8 @@ export const RESUME_DATA = {
     {
       title: "MobiFone Meet",
       techStack: [
-        "PM",
         "Tech Lead / Fullstack Developer",
+        "PM",
         "TypeScript",
         "Next.js",
         "Golang",
@@ -135,13 +132,10 @@ export const RESUME_DATA = {
         "Prisma/Drizzle",
         "Mysql/Mongo",
         "Socketio",
-        "Mediasoup",
-        "Janus",
         "WebRTC",
       ],
       description:
         "Giải pháp hội nghị truyền hình trực tuyến cho các cá nhân, tổ chức, doanh nghiệp, cơ quan nhà nước. Giải pháp đã được công nhận là nền tảng số quốc gia tiềm năng vào ngày 29/11/2023.",
-      logo: ConsultlyLogo,
       link: {
         label: "meet.mobifone.com",
         href: "https://meet.mobifone.vn",
@@ -161,11 +155,6 @@ export const RESUME_DATA = {
       ],
       description:
         "Giải pháp tổng đài ảo dành cho doanh nghiệp, hỗ trợ đấu nối các tổng đài doanh nghiệp, cung cấp công cụ hỗ trợ bán hàng và chăm sóc khách hàng hiệu quả, giúp nâng cao tỷ lệ bắt máy và tiết kiệm chi phí doanh nghiệp.",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
     },
     {
       title: "Blockchain Research",
@@ -178,7 +167,6 @@ export const RESUME_DATA = {
       ],
       description:
         "Tìm hiểu công nghệ Blockchain, nghiên cứu và đề xuất giải pháp ứng dụng công nghệ blockchain vào các bài toán kinh doanh của MobiFone. VD, bài toán hóa đơn điện tử, bài toán thẻ cào.",
-      logo: JarockiMeLogo,
     },
     {
       title: "AIOT",
@@ -192,36 +180,35 @@ export const RESUME_DATA = {
       ],
       description:
         "Giải pháp giúp quản lý tập trung các thiết bị IOT, hỗ trợ việc quản lý, giám sát thiết bị, theo dõi hệ thống hay tuỳ biến các kịch bản điều khiển giám sát bất thường.",
-      logo: MonitoLogo,
       link: {
         label: "aiot.mobifone.vn",
         href: "https://aiot.mobifone.vn/",
       },
     },
     {
-      title: "HashiCorp Products Research",
+      title: "HashiCorp Research",
       techStack: ["Nomad", "Consul", "Vaul", "Docker"],
       description:
         "Tìm hiểu và làm chủ các sản phẩm của HashiCorp, đề xuất phương án ứng dụng các sản phẩm như nomad, consul, vaul,.. thay thế các giải pháp triển khai hiện có của Viettel Cyber Security như Docker Swarm, Kubenetes.",
-      logo: Minimal,
       link: {
         label: "hashicorp.com",
         href: "https://www.hashicorp.com/",
       },
     },
     {
-      title: "Ratelimit Solutions Research",
+      title: "Ratelimit Research",
       techStack: ["Redis", "Kafka", "RabbitMQ", "Golang"],
       description:
         "Nghiên cứu và đề xuất giải pháp Ratelimit cho một số nghiệp vụ cụ thể thường gặp tại Viettel Cyber Security",
-      logo: BarepapersLogo,
     },
     {
       title: "Fullstack Template",
       techStack: [
         "Side Project",
         "TypeScript",
-        "Next.js",
+        "Next.js 14",
+        "React-Query",
+        "Next-auth",
         "Trpc",
         "Drizzle",
         "Mysql Proxy",
@@ -231,11 +218,10 @@ export const RESUME_DATA = {
         "Docker",
       ],
       description:
-        "Một Fullstack Template tổng hợp lại các giải pháp cho những nhiệp vụ thường gặp khi xây dựng một sản phẩm phần mềm. Ví dụ, giải pháp xác thực phần quyền, giải pháp tương tác thời gian thực, giải pháp cron job, giải pháp message queue, thư viện giảo diện dùng chung, giải pháp triển khai on-cloud, on-premise... Các giải pháp xây dựng xoay quanh framework Next.Js và theo hướng serverless.",
-      logo: YearProgressLogo,
+        "Một Fullstack Template tổng hợp lại các giải pháp cho những nhiệp vụ thường gặp khi xây dựng một sản phẩm phần mềm. Ví dụ, giải pháp xác thực phần quyền, giải pháp tương tác thời gian thực, giải pháp cron job,... Các giải pháp xây dựng xoay quanh framework Next.Js và theo hướng serverless.",
     },
     {
-      title: "Mektoube Picture Moderator",
+      title: "Picture Moderator",
       techStack: [
         "Full Stack Developer",
         "TypeScript",
@@ -247,84 +233,17 @@ export const RESUME_DATA = {
         "Kubenetes",
       ],
       description:
-        "Một mô đun trong ứng dụng hẹn hò Mektoube, có nhiệm vụ cung cấp giao diện cho các nhân viên của Mektoube phê duyệt ảnh do người dùng tải lên.",
-      logo: ParabolLogo,
+        "Một mô đun trong ứng dụng hẹn hò Mektoube, có nhiệm vụ cung cấp giao diện cho các quản trị viên của Mektoube phê duyệt ảnh do người dùng tải lên.",
       link: {
         label: "mektoube.fr",
         href: "https://www.mektoube.fr/",
       },
     },
     {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
+      title: "VinhGia PMS",
+      techStack: ["Javascript", "React", "CSS"],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
+        "Trang chủ và trang quản trị của nhà thuốc dược phẩm Vinh Gia.",
     },
   ],
 } as const;
