@@ -22,12 +22,12 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Đào Ngọc Thành",
   initials: "ĐNT",
-  location: "Dịch Vọng, Hà Nội, Việt Nam",
-  locationLink: "https://maps.app.goo.gl/C8xkpSupHTgFurJD6",
+  location: "Cầu Giấy, Hà Nội, Việt Nam",
+  locationLink: "https://maps.app.goo.gl/jzejzRdeTB62oKn66",
   about:
     "Full Stack Engineer tập trung vào việc xây dựng sản phẩm với sự chú ý đặc biệt đến khách hàng, công nghệ và chất lượng sản phẩm.",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+    "Là một Kỹ sư Full Stack, tôi đã thành công trong việc đưa nhiều sản phẩm từ 0 đến 1. Hiện tại, tôi làm việc chủ yếu với TypeScript, React, Node.js và Golang. Ngoài ra, Tôi có đảm nhiệm vai trò là một PM - Tech Lead dẫn dắt đội nhóm một cách hiệu quả, đảm bảo môi trường làm việc mà ở đó mọi người có thể phát huy hết khả năng của mình. Về kinh nghiệm, tôi có gần 4 năm làm việc trong lĩnh vực phát triển phần mềm.",
   avatarUrl: "https://avatars.githubusercontent.com/u/24645009?v=4",
   personalWebsiteUrl: "https://thanhdaon.me",
   contact: {
