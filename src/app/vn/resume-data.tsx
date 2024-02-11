@@ -226,7 +226,7 @@ export const RESUME_DATA = {
         "Kubenetes",
       ],
       description:
-        "Một mô đun trong ứng dụng hẹn hò Mektoube, có nhiệm vụ cung cấp giao diện cho các quản trị viên của Mektoube phê duyệt ảnh do người dùng tải lên.",
+        "Một mô đun trong ứng dụng hẹn hò Mektoube, có nghiệm vụ cung cấp giao diện cho các quản trị viên của Mektoube phê duyệt ảnh do người dùng tải lên.",
       link: {
         label: "mektoube.fr",
         href: "https://www.mektoube.fr/",

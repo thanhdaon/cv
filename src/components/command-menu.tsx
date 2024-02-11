@@ -59,7 +59,9 @@ export const CommandMenu = ({ links }: Props) => {
                 <Button onClick={() => router.push("/vn")}>Việt Nam</Button>
               </DrawerClose>
               <DrawerClose asChild>
-                <Button onClick={() => router.push("/en")}>English</Button>
+                <Button variant="outline" onClick={() => router.push("/en")}>
+                  English
+                </Button>
               </DrawerClose>
             </DrawerFooter>
           </div>
