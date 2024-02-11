@@ -1,27 +1,20 @@
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 import {
-  BarepapersLogo,
   ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  JarockiMeLogo,
   JojoMobileLogo,
-  Minimal,
-  MonitoLogo,
   NSNLogo,
   ParabolLogo,
-  YearProgressLogo,
 } from "@/images/logos";
 
 export const RESUME_DATA = {
-  name: "Đào Ngọc Thành",
-  initials: "ĐNT",
-  location: "Cầu Giấy, Hà Nội, Việt Nam",
+  name: "Dao Ngoc Thanh",
+  initials: "DNT",
+  location: "Cau Giay, Ha Noi, Viet Nam",
   locationLink: "https://maps.app.goo.gl/jzejzRdeTB62oKn66",
   about:
-    "Full Stack Engineer tập trung vào việc xây dựng sản phẩm với sự chú ý đặc biệt đến khách hàng, công nghệ và chất lượng sản phẩm.",
+    "Full Stack Engineer focused on building products with extra attention to customers, technologies and developer experience.",
   summary:
-    "Là một Kỹ sư Full Stack, tôi đã thành công trong việc đưa nhiều sản phẩm từ 0 đến 1. Hiện tại, tôi làm việc chủ yếu với TypeScript, React, Node.js và Golang. Ngoài ra, Tôi có đảm nhiệm vai trò là một PM - Tech Lead dẫn dắt đội nhóm một cách hiệu quả, đảm bảo môi trường làm việc mà ở đó mọi người có thể phát huy hết khả năng của mình. Về kinh nghiệm, tôi có gần 4 năm làm việc trong lĩnh vực phát triển phần mềm.",
+    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. Currently, I work mostly with TypeScript, React, Node.js and Golang. Additionally, I hold the role of a PM - Tech Lead, effectively guiding the team and ensuring an environment where people can do their best work. I have nearly 4 years of experience in software development.",
   avatarUrl: "https://avatars.githubusercontent.com/u/24645009?v=4",
   personalWebsiteUrl: "https://thanhdaon.me",
   contact: {
@@ -47,34 +40,35 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Đại Học Bách Khoa Hà Nội",
-      degree: "Bằng giỏi kỹ sư khoa Công Nghệ Thông Tin phân hệ ICT, GPA: 3.32",
+      school: "Hanoi University of Science and Technology",
+      degree:
+        "Bachelor's Degree in Information Technology with Distinction, GPA: 3.32",
       start: "2016",
       end: "2020",
     },
   ],
   work: [
     {
-      company: "Trung tâm CNTT MobiFone (MobiFone IT)",
+      company: "MobiFone IT Center",
       link: "https://it.mobifone.vn/",
       badges: [],
-      title: "Lập trình viên Fullstack -> Tổ trưởng tổ Backend",
+      title: "Full Stack Developer → Backend Team Leader",
       logo: ParabolLogo,
       start: "7/2021",
       end: "Nay",
       description:
-        "Phát triển các tính năng mới, dẫn dắt đội nhóm, nghiên cứu, lựa chọn cũng như xây dựng base dự án cho phòng, đào tạo các thành viên mới. Công nghệ: React/Nextjs, TypeScript, Golang, Antd, Shadcn-ui, Trpc, Drizzle, Mysql, Docker.",
+        "Developing new features, leading the team, conducting research, selecting and building project bases for the department, training new members. Technologies include React/Next.js, TypeScript, Golang, Ant Design, Shadcn-ui, Trpc, Drizzle, MySQL, and Docker.",
     },
     {
-      company: "Công ty An ning mạng Viettel (Viettel Cyber Security)",
+      company: "Viettel Cyber Security",
       link: "https://viettelcybersecurity.com",
       badges: [],
-      title: "Kỹ sư giải pháp",
+      title: "Solution Engineer",
       logo: ClevertechLogo,
       start: "9/2020",
       end: "6/2021",
       description:
-        "Nghiên cứu giải pháp cho những vấn đề thường gặp của các đội nhóm phát triển sản phẩm. Công nghệ: Nomad, Consul, Redis, Kafka, RabbitMQ.",
+        "Researching solutions for common issues faced by product development teams. Technologies include Nomad, Consul, Redis, Kafka, and RabbitMQ.",
     },
     {
       company: "OpenTechiz",
