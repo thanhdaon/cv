@@ -5,7 +5,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { Inter } from "next/font/google";
 
 export const metadata: Metadata = {
-  title: "Đào Ngọc Thành | CV",
+  title: "Đào Ngọc Thành | Fullstack Engineer",
   description: "Đào Ngọc Thành - cv",
 };
 

@@ -10,7 +10,7 @@ import { RESUME_DATA } from "@/app/vn/resume-data";
 import { ProjectCard } from "@/components/project-card";
 
 export const metadata: Metadata = {
-  title: `${RESUME_DATA.name}`,
+  title: "Đào Ngọc Thành | Fullstack Engineer",
   description: RESUME_DATA.summary,
 };
 
