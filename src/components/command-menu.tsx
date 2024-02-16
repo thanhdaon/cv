@@ -1,19 +1,16 @@
 "use client";
 
-import * as React from "react";
-
+import { Button } from "@/components/ui/button";
 import {
-  CommandDialog,
-  CommandEmpty,
-  CommandGroup,
-  CommandInput,
-  CommandItem,
-  CommandList,
-  CommandSeparator,
-} from "@/components/ui/command";
-import { Button } from "./ui/button";
+  Drawer,
+  DrawerClose,
+  DrawerContent,
+  DrawerFooter,
+  DrawerTrigger,
+} from "@/components/ui/drawer";
 import { CommandIcon } from "lucide-react";
 import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 
 interface Props {
   links: { url: string; title: string }[];
@@ -21,9 +18,9 @@ interface Props {
 
 export const CommandMenu = ({ links }: Props) => {
   const router = useRouter();
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = useState(false);
 
-  React.useEffect(() => {
+  useEffect(() => {
     const down = (e: KeyboardEvent) => {
       if (e.key === "j" && (e.metaKey || e.ctrlKey)) {
         e.preventDefault();
@@ -42,46 +39,34 @@ export const CommandMenu = ({ links }: Props) => {
         <kbd className="pointer-events-none inline-flex h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground opacity-100">
           <span className="text-xs">⌘</span>J
         </kbd>{" "}
-        to open the command menu
+        to change the language
       </p>
-      <Button
-        onClick={() => setOpen((open) => !open)}
-        variant="outline"
-        size="icon"
-        className="fixed bottom-4 right-4 flex rounded-full shadow-2xl xl:hidden print:hidden"
-      >
-        <CommandIcon className="my-6 size-6" />
-      </Button>
-      <CommandDialog open={open} onOpenChange={setOpen}>
-        <CommandInput placeholder="Type a command or search..." />
-        <CommandList>
-          <CommandEmpty>No results found.</CommandEmpty>
-          <CommandGroup heading="Actions">
-            <CommandItem
-              onSelect={() => {
-                setOpen(false);
-                window.print();
-              }}
-            >
-              <span>Print</span>
-            </CommandItem>
-          </CommandGroup>
-          <CommandGroup heading="Links">
-            {links.map(({ url, title }) => (
-              <CommandItem
-                key={url}
-                onSelect={() => {
-                  setOpen(false);
-                  router.push(url);
-                }}
-              >
-                <span>{title}</span>
-              </CommandItem>
-            ))}
-          </CommandGroup>
-          <CommandSeparator />
-        </CommandList>
-      </CommandDialog>
+      <Drawer open={open} onOpenChange={setOpen}>
+        <DrawerTrigger asChild>
+          <Button
+            onClick={() => setOpen(!open)}
+            variant="outline"
+            size="icon"
+            className="fixed bottom-4 right-4 flex rounded-full shadow-2xl xl:hidden print:hidden"
+          >
+            <CommandIcon className="my-6 size-6" />
+          </Button>
+        </DrawerTrigger>
+        <DrawerContent>
+          <div className="mx-auto w-full max-w-sm">
+            <DrawerFooter>
+              <DrawerClose asChild>
+                <Button onClick={() => router.push("/vn")}>Việt Nam</Button>
+              </DrawerClose>
+              <DrawerClose asChild>
+                <Button variant="outline" onClick={() => router.push("/en")}>
+                  English
+                </Button>
+              </DrawerClose>
+            </DrawerFooter>
+          </div>
+        </DrawerContent>
+      </Drawer>
     </>
   );
 };
