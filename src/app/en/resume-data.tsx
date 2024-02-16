@@ -1,22 +1,15 @@
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 import {
-  BarepapersLogo,
   ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  JarockiMeLogo,
   JojoMobileLogo,
-  Minimal,
-  MonitoLogo,
   NSNLogo,
   ParabolLogo,
-  YearProgressLogo,
 } from "@/images/logos";
 
 export const RESUME_DATA = {
-  name: "Đào Ngọc Thành",
-  initials: "ĐNT",
-  location: "Cầu Giấy, Hà Nội, Việt Nam",
+  name: "Dao Ngoc Thanh",
+  initials: "DNT",
+  location: "Cau Giay, Ha Noi, Viet Nam",
   locationLink: "https://maps.app.goo.gl/jzejzRdeTB62oKn66",
   about:
     "Full Stack Engineer tập trung vào việc xây dựng sản phẩm với sự chú ý đặc biệt đến khách hàng, công nghệ và chất lượng sản phẩm.",
