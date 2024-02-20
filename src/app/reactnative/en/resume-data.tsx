@@ -52,10 +52,10 @@ export const RESUME_DATA = {
       company: "MobiFone IT Center",
       link: "https://it.mobifone.vn/",
       badges: [],
-      title: "Full Stack Developer → Backend Team Leader",
+      title: "Full Stack Developer",
       logo: ParabolLogo,
       start: "7/2021",
-      end: "Nay",
+      end: "Now",
       description:
         "Developing new features, leading the team, conducting research, selecting and building project bases for the department, training new members. Technologies include React/Next.js, TypeScript, Golang, Ant Design, Shadcn-ui, Trpc, Drizzle, MySQL, and Docker.",
     },
@@ -74,23 +74,23 @@ export const RESUME_DATA = {
       company: "OpenTechiz",
       link: "https://www.opentechiz.com",
       badges: [],
-      title: "Lập trình viên Fullstack",
+      title: "Fullstack Developer",
       logo: JojoMobileLogo,
       start: "8/2019",
       end: "8/2020",
       description:
-        "Phát triển mô đun trong ứng dụng hẹn hò Mektoube, cho phép quản trị viên phê duyệt ảnh do người dùng tải lên.",
+        "Developed a module within the Mektoube dating application enabling administrators to approve user-uploaded photos.",
     },
     {
       company: "VNSolution.,LTD",
       link: "https://vnsolution.com.vn",
       badges: [],
-      title: "Lập trình viên Frontend",
+      title: "Frontend Developer",
       logo: NSNLogo,
       start: "6/2018",
       end: "2/2019",
       description:
-        "Phát triển giao diện cho các trang web giới thiệu sản phẩm, trang web quản trị theo yêu cầu từ khách hàng",
+        "Developed interfaces for product showcase websites and custom admin portals as per client specifications.",
     },
   ],
   skills: [
@@ -145,41 +145,25 @@ export const RESUME_DATA = {
         "BigchainDB",
       ],
       description:
-        "Tìm hiểu công nghệ Blockchain, nghiên cứu và đề xuất giải pháp ứng dụng công nghệ blockchain vào các bài toán kinh doanh của MobiFone. VD, bài toán hóa đơn điện tử, bài toán thẻ cào.",
+        "Study blockchain technology, conduct research, and propose solutions for applying blockchain technology to business challenges at MobiFone. For example, electronic invoice issues, and prepaid card issues.",
     },
     {
-      title: "AIOT",
-      techStack: [
-        "Backend Developer",
-        "TypeScript",
-        "Next.js",
-        "Golang",
-        "Mainflux",
-        "InfluxDB",
-      ],
+      title: "Tool App",
+      techStack: ["TypeScript", "Kotlin", "C++", "ReactNative", "SQLite"],
       description:
-        "Giải pháp giúp quản lý tập trung các thiết bị IOT, hỗ trợ việc quản lý, giám sát thiết bị, theo dõi hệ thống hay tuỳ biến các kịch bản điều khiển giám sát bất thường.",
-      link: {
-        label: "aiot.mobifone.vn",
-        href: "https://aiot.mobifone.vn/",
-      },
+        "I spearheaded the development of over 10 diverse tools spanning education and healthcare sectors, including but not limited to Wifi Router Manager, Wifi Password Recovery, Get Apk, Language Learning Apps (French, Japanese), Diseases Dictionary, Battery Saver, Auto Click, and File Manager.",
     },
     {
       title: "HashiCorp Research",
       techStack: ["Nomad", "Consul", "Vaul", "Docker"],
       description:
-        "Tìm hiểu và làm chủ các sản phẩm của HashiCorp, đề xuất phương án ứng dụng các sản phẩm như nomad, consul, vaul,.. thay thế các giải pháp triển khai hiện có của Viettel Cyber Security như Docker Swarm, Kubenetes.",
+        "Study and master HashiCorp products, propose plans for implementing products such as Nomad, Consul, Vault, etc., to replace existing deployment solutions at Viettel Cyber Security, such as Docker Swarm, Kubernetes.",
       link: {
         label: "hashicorp.com",
         href: "https://www.hashicorp.com/",
       },
     },
-    {
-      title: "Ratelimit Research",
-      techStack: ["Redis", "Kafka", "RabbitMQ", "Golang"],
-      description:
-        "Nghiên cứu và đề xuất giải pháp Ratelimit cho một số nghiệp vụ cụ thể thường gặp tại Viettel Cyber Security",
-    },
+
     {
       title: "Fullstack Template",
       techStack: [
@@ -197,7 +181,7 @@ export const RESUME_DATA = {
         "Docker",
       ],
       description:
-        "Một Fullstack Template tổng hợp lại các giải pháp cho những nhiệp vụ thường gặp khi xây dựng một sản phẩm phần mềm. Ví dụ, giải pháp xác thực phần quyền, giải pháp tương tác thời gian thực, giải pháp cron job,... Các giải pháp xây dựng xoay quanh framework Next.Js và theo hướng serverless.",
+        "A Fullstack Template that consolidates solutions for common tasks encountered when building a software product. For example, solutions for role-based authentication, real-time interaction, cron job management, etc. These solutions are built around the Next.js framework and follow a serverless approach.",
     },
     {
       title: "Picture Moderator",
@@ -212,17 +196,11 @@ export const RESUME_DATA = {
         "Kubenetes",
       ],
       description:
-        "Một mô đun trong ứng dụng hẹn hò Mektoube, có nhiệm vụ cung cấp giao diện cho các quản trị viên của Mektoube phê duyệt ảnh do người dùng tải lên.",
+        "A module within the Mektoube dating application tasked with providing an interface for Mektoube administrators to approve photos uploaded by users.",
       link: {
         label: "mektoube.fr",
         href: "https://www.mektoube.fr/",
       },
-    },
-    {
-      title: "VinhGia PMS",
-      techStack: ["Javascript", "React", "CSS"],
-      description:
-        "Trang chủ và trang quản trị của nhà thuốc dược phẩm Vinh Gia.",
     },
   ],
 } as const;
