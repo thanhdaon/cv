@@ -1,18 +1,12 @@
 import "@/app/globals.css";
 
 import type { Metadata } from "next";
-import { Analytics } from "@vercel/analytics/react";
-import { Inter } from "next/font/google";
+import { GeistSans } from "geist/font/sans";
 
 export const metadata: Metadata = {
   title: "Đào Ngọc Thành | Fullstack Engineer",
   description: "Đào Ngọc Thành - cv",
 };
-
-const inter = Inter({
-  subsets: ["latin"],
-  display: "swap",
-});
 
 export default function RootLayout({
   children,
@@ -20,9 +14,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={inter.className}>
+    <html className={GeistSans.className}>
       <body>{children}</body>
-      <Analytics />
     </html>
   );
 }

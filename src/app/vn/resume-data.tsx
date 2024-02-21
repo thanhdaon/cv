@@ -41,9 +41,10 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Đại Học Bách Khoa Hà Nội",
-      degree: "Bằng giỏi kỹ sư khoa Công Nghệ Thông Tin phân hệ ICT, GPA: 3.32",
+      degree:
+        "Trình độ chuyên môn: Kỹ sư Công Nghệ Thông Tin - Bằng giỏi - phân hệ ICT, GPA: 3.32",
       start: "2016",
-      end: "2020",
+      end: "2021",
     },
   ],
   work: [
@@ -51,45 +52,34 @@ export const RESUME_DATA = {
       company: "Trung tâm CNTT MobiFone (MobiFone IT)",
       link: "https://it.mobifone.vn/",
       badges: [],
-      title: "Lập trình viên Fullstack → Tổ trưởng tổ Backend",
+      title: "Lập trình viên Fullstack - Tổ trưởng tổ Backend",
       logo: ParabolLogo,
-      start: "7/2021",
+      start: "07/2021",
       end: "Nay",
       description:
-        "Phát triển các tính năng mới, dẫn dắt đội nhóm, nghiên cứu, lựa chọn cũng như xây dựng base dự án cho phòng, đào tạo các thành viên mới. Công nghệ: React/Nextjs, TypeScript, Golang, Antd, Shadcn-ui, Trpc, Drizzle, Mysql, Docker.",
+        "Định hướng, phát triển các tính năng mới và xây dựng base cho dự án. Dẫn dắt đội nhóm thực hiện các nhiệm vụ về phát triển phần mềm. Điều phối, chịu trách nhiệm về chất lượng và tiến độ từ giai đầu của dự án. Đào tạo đội ngũ nhân viên mới. Công nghệ: React/Nextjs, TypeScript, Golang, Antd, Shadcn-ui, Trpc, Drizzle, Mysql, Docker.",
     },
     {
-      company: "Công ty An ning mạng Viettel (Viettel Cyber Security)",
+      company: "Công ty An ninh mạng Viettel (Viettel Cyber Security)",
       link: "https://viettelcybersecurity.com",
       badges: [],
       title: "Kỹ sư giải pháp",
       logo: ClevertechLogo,
-      start: "9/2020",
-      end: "6/2021",
+      start: "05/2020",
+      end: "06/2021",
       description:
-        "Nghiên cứu giải pháp cho những vấn đề thường gặp của các đội nhóm phát triển sản phẩm. Công nghệ: Nomad, Consul, Redis, Kafka, RabbitMQ.",
+        "Tư vấn giải pháp về những vấn đề thường gặp (giải pháp triển khai ứng dụng, giải pháp giới hạn lượng truy cập phân tán, ...) của các đội nhóm phát triển sản phẩm phần mềm DDOS Protection, DLP, SOC. Công nghệ: Nomad, Consul, Redis, Kafka, RabbitMQ.",
     },
     {
       company: "OpenTechiz",
       link: "https://www.opentechiz.com",
-      badges: [],
+      badges: ["Fresher"],
       title: "Lập trình viên Fullstack",
       logo: JojoMobileLogo,
-      start: "8/2019",
-      end: "8/2020",
+      start: "06/2018",
+      end: "04/2020",
       description:
-        "Phát triển mô đun trong ứng dụng hẹn hò Mektoube, cho phép quản trị viên phê duyệt ảnh do người dùng tải lên.",
-    },
-    {
-      company: "VNSolution.,LTD",
-      link: "https://vnsolution.com.vn",
-      badges: [],
-      title: "Lập trình viên Frontend",
-      logo: NSNLogo,
-      start: "6/2018",
-      end: "2/2019",
-      description:
-        "Phát triển giao diện cho các trang web giới thiệu sản phẩm, trang web quản trị theo yêu cầu từ khách hàng",
+        "Phát triển app chấm công sử dụng cho nội bộ trong công ty. Phát triển và kiểm thử mô đun phê duyệt ảnh trong ứng dụng Mektoube.",
     },
   ],
   skills: [
@@ -114,8 +104,7 @@ export const RESUME_DATA = {
     {
       title: "MobiFone Meet",
       techStack: [
-        "Tech Lead / Fullstack Developer",
-        "PM",
+        "Fullstack Developer / Tech Lead / PM",
         "TypeScript",
         "Next.js",
         "Golang",
@@ -128,7 +117,7 @@ export const RESUME_DATA = {
         "WebRTC",
       ],
       description:
-        "Giải pháp hội nghị truyền hình trực tuyến cho các cá nhân, tổ chức, doanh nghiệp, cơ quan nhà nước. Giải pháp đã được công nhận là nền tảng số quốc gia tiềm năng vào ngày 29/11/2023.",
+        "Xây dựng và phát triển ứng dụng MobiFone Meet trở thành giải pháp hội nghị truyền hình trực tuyến cho các cá nhân, tổ chức, doanh nghiệp, cơ quan nhà nước. Giải pháp đã được công nhận là nền tảng số quốc gia tiềm năng vào ngày 29/11/2023 và đã được đưa vào sử dụng thực tế.",
       link: {
         label: "meet.mobifone.com",
         href: "https://meet.mobifone.vn",
@@ -137,8 +126,7 @@ export const RESUME_DATA = {
     {
       title: "Siphub",
       techStack: [
-        "PM",
-        "Fullstack Developer",
+        "Fullstack Developer / PM",
         "Next.js",
         "Next-auth",
         "Trpc",
@@ -148,6 +136,25 @@ export const RESUME_DATA = {
       ],
       description:
         "Giải pháp tổng đài ảo dành cho doanh nghiệp, hỗ trợ đấu nối các tổng đài doanh nghiệp, cung cấp công cụ hỗ trợ bán hàng và chăm sóc khách hàng hiệu quả, giúp nâng cao tỷ lệ bắt máy và tiết kiệm chi phí doanh nghiệp.",
+    },
+    {
+      title: "Fullstack Template",
+      techStack: [
+        "Side Project",
+        "TypeScript",
+        "Next.js 14",
+        "React-Query",
+        "Next-auth",
+        "Trpc",
+        "Drizzle",
+        "Mysql Proxy",
+        "Shadcn-ui",
+        "Trigger.dev",
+        "Soketi",
+        "Docker",
+      ],
+      description:
+        "Một Fullstack Template tổng hợp lại các giải pháp cho những nhiệp vụ thường gặp khi xây dựng một sản phẩm phần mềm. Ví dụ, giải pháp xác thực phần quyền, giải pháp tương tác thời gian thực, giải pháp cron job,... Các giải pháp xây dựng xoay quanh framework Next.Js và theo hướng serverless.",
     },
     {
       title: "Blockchain Research",
@@ -192,31 +199,13 @@ export const RESUME_DATA = {
       title: "Ratelimit Research",
       techStack: ["Redis", "Kafka", "RabbitMQ", "Golang"],
       description:
-        "Nghiên cứu và đề xuất giải pháp Ratelimit cho một số nghiệp vụ cụ thể thường gặp tại Viettel Cyber Security",
+        "Nghiên cứu và đề xuất giải pháp Ratelimit cho một số nghiệp vụ cụ thể thường gặp tại Viettel Cyber Security.",
     },
-    {
-      title: "Fullstack Template",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js 14",
-        "React-Query",
-        "Next-auth",
-        "Trpc",
-        "Drizzle",
-        "Mysql Proxy",
-        "Shadcn-ui",
-        "Trigger.dev",
-        "Soketi",
-        "Docker",
-      ],
-      description:
-        "Một Fullstack Template tổng hợp lại các giải pháp cho những nhiệp vụ thường gặp khi xây dựng một sản phẩm phần mềm. Ví dụ, giải pháp xác thực phần quyền, giải pháp tương tác thời gian thực, giải pháp cron job,... Các giải pháp xây dựng xoay quanh framework Next.Js và theo hướng serverless.",
-    },
+
     {
       title: "Picture Moderator",
       techStack: [
-        "Full Stack Developer",
+        "Fullstack Developer",
         "TypeScript",
         "React",
         "Node.js",

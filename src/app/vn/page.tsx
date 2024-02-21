@@ -122,7 +122,7 @@ export default function Page() {
                         ))}
                       </span>
                     </h3>
-                    <div className="text-sm tabular-nums text-gray-500">
+                    <div className="text-sm font-bold tabular-nums text-gray-500">
                       {work.start} - {work.end}
                     </div>
                   </div>
@@ -131,7 +131,7 @@ export default function Page() {
                     {work.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="mt-2 text-xs">
+                <CardContent className="mt-2 text-sm">
                   {work.description}
                 </CardContent>
               </Card>
@@ -148,7 +148,7 @@ export default function Page() {
                     <h3 className="font-semibold leading-none">
                       {education.school}
                     </h3>
-                    <div className="text-sm tabular-nums text-gray-500">
+                    <div className="text-sm font-bold tabular-nums text-gray-500">
                       {education.start} - {education.end}
                     </div>
                   </div>

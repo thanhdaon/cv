@@ -73,7 +73,7 @@ export const RESUME_DATA = {
     {
       company: "OpenTechiz",
       link: "https://www.opentechiz.com",
-      badges: [],
+      badges: ["Fresher"],
       title: "Fullstack Developer",
       logo: JojoMobileLogo,
       start: "8/2019",
@@ -84,7 +84,7 @@ export const RESUME_DATA = {
     {
       company: "VNSolution.,LTD",
       link: "https://vnsolution.com.vn",
-      badges: [],
+      badges: ["Fresher"],
       title: "Frontend Developer",
       logo: NSNLogo,
       start: "6/2018",
