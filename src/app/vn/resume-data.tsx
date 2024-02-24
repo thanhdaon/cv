@@ -1,13 +1,8 @@
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
-import {
-  ClevertechLogo,
-  JojoMobileLogo,
-  NSNLogo,
-  ParabolLogo,
-} from "@/images/logos";
+import { ClevertechLogo, JojoMobileLogo, ParabolLogo } from "@/images/logos";
 
 export const RESUME_DATA = {
-  name: "Đào Ngọc Thành",
+  name: "ĐÀO NGỌC THÀNH",
   initials: "ĐNT",
   location: "Cầu Giấy, Hà Nội, Việt Nam",
   locationLink: "https://maps.app.goo.gl/jzejzRdeTB62oKn66",

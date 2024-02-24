@@ -1,20 +1,15 @@
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
-import {
-  ClevertechLogo,
-  JojoMobileLogo,
-  NSNLogo,
-  ParabolLogo,
-} from "@/images/logos";
+import { ClevertechLogo, JojoMobileLogo, ParabolLogo } from "@/images/logos";
 
 export const RESUME_DATA = {
-  name: "Dao Ngoc Thanh",
+  name: "DAO NGOC THANH",
   initials: "DNT",
   location: "Cau Giay, Ha Noi, Viet Nam",
   locationLink: "https://maps.app.goo.gl/jzejzRdeTB62oKn66",
   about:
-    "Full Stack Engineer focused on building products with extra attention to customers, technologies and developer experience.",
+    "A Full Stack Engineer focusing on building products with special attention to customers, technology, and developer experience",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. Currently, I work mostly with TypeScript, React, Node.js and Golang. Additionally, I hold the role of a PM - Tech Lead, effectively guiding the team and ensuring an environment where people can do their best work. I have nearly 4 years of experience in software development.",
+    "As a Full Stack Engineer, I have successfully taken numerous products from 0 to 1. Currently, I primarily work with TypeScript, React, Node.js, and Golang. Additionally, I hold the role of a PM - Tech Lead, effectively leading teams and ensuring an environment where everyone can unleash their full potential. In terms of experience, I have nearly 4 years of software development expertise.",
   avatarUrl: "https://avatars.githubusercontent.com/u/24645009?v=4",
   personalWebsiteUrl: "https://thanhdaon.me",
   contact: {
@@ -42,9 +37,9 @@ export const RESUME_DATA = {
     {
       school: "Hanoi University of Science and Technology",
       degree:
-        "Bachelor's Degree in Information Technology with Distinction, GPA: 3.32",
+        "Bachelor of Information Technology - Excellent degree - ICT specialization, GPA: 3.32",
       start: "2016",
-      end: "2020",
+      end: "2021",
     },
   ],
   work: [
@@ -52,12 +47,12 @@ export const RESUME_DATA = {
       company: "MobiFone IT Center",
       link: "https://it.mobifone.vn/",
       badges: [],
-      title: "Full Stack Developer → Backend Team Leader",
+      title: "Fullstack Developer - Backend Team Leader",
       logo: ParabolLogo,
-      start: "7/2021",
-      end: "Nay",
+      start: "07/2021",
+      end: "Now",
       description:
-        "Developing new features, leading the team, conducting research, selecting and building project bases for the department, training new members. Technologies include React/Next.js, TypeScript, Golang, Ant Design, Shadcn-ui, Trpc, Drizzle, MySQL, and Docker.",
+        "Direction, development of new features and establishment of project bases. Leading the team in software development tasks. Coordinating and taking responsibility for the quality and progress from the project's inception. Training new team members. Technologies: React/Next.js, TypeScript, Golang, Antd, Shadcn-ui, Trpc, Drizzle, MySQL, Docker.",
     },
     {
       company: "Viettel Cyber Security",
@@ -65,32 +60,21 @@ export const RESUME_DATA = {
       badges: [],
       title: "Solution Engineer",
       logo: ClevertechLogo,
-      start: "9/2020",
-      end: "6/2021",
+      start: "05/2020",
+      end: "06/2021",
       description:
-        "Researching solutions for common issues faced by product development teams. Technologies include Nomad, Consul, Redis, Kafka, and RabbitMQ.",
+        "Advising on solutions for common issues such as application deployment strategies, distributed access limitation solutions, etc., for software development teams. Technologies involved include Nomad, Consul, Redis, Kafka, and RabbitMQ.",
     },
     {
       company: "OpenTechiz",
       link: "https://www.opentechiz.com",
-      badges: [],
-      title: "Lập trình viên Fullstack",
+      badges: ["Fresher"],
+      title: "Fullstack Developer",
       logo: JojoMobileLogo,
-      start: "8/2019",
-      end: "8/2020",
+      start: "06/2018",
+      end: "04/2020",
       description:
-        "Phát triển mô đun trong ứng dụng hẹn hò Mektoube, cho phép quản trị viên phê duyệt ảnh do người dùng tải lên.",
-    },
-    {
-      company: "VNSolution.,LTD",
-      link: "https://vnsolution.com.vn",
-      badges: [],
-      title: "Lập trình viên Frontend",
-      logo: NSNLogo,
-      start: "6/2018",
-      end: "2/2019",
-      description:
-        "Phát triển giao diện cho các trang web giới thiệu sản phẩm, trang web quản trị theo yêu cầu từ khách hàng",
+        "Develop timekeeping app for internal use within the company. Develop and test photo approval module in Mektoube application.",
     },
   ],
   skills: [
@@ -115,8 +99,7 @@ export const RESUME_DATA = {
     {
       title: "MobiFone Meet",
       techStack: [
-        "Tech Lead / Fullstack Developer",
-        "PM",
+        "Fullstack Developer / Tech Lead / PM",
         "TypeScript",
         "Next.js",
         "Golang",
@@ -129,7 +112,7 @@ export const RESUME_DATA = {
         "WebRTC",
       ],
       description:
-        "Giải pháp hội nghị truyền hình trực tuyến cho các cá nhân, tổ chức, doanh nghiệp, cơ quan nhà nước. Giải pháp đã được công nhận là nền tảng số quốc gia tiềm năng vào ngày 29/11/2023.",
+        "Build and develop the MobiFone Meet application to become an online video conferencing solution for individuals, organizations, businesses, and state agencies. The solution was recognized as a potential national digital platform on November 29, 2023 and has been put into practical use.",
       link: {
         label: "meet.mobifone.com",
         href: "https://meet.mobifone.vn",
@@ -138,8 +121,7 @@ export const RESUME_DATA = {
     {
       title: "Siphub",
       techStack: [
-        "PM",
-        "Fullstack Developer",
+        "Fullstack Developer / PM",
         "Next.js",
         "Next-auth",
         "Trpc",
@@ -148,52 +130,7 @@ export const RESUME_DATA = {
         "Mysql",
       ],
       description:
-        "Giải pháp tổng đài ảo dành cho doanh nghiệp, hỗ trợ đấu nối các tổng đài doanh nghiệp, cung cấp công cụ hỗ trợ bán hàng và chăm sóc khách hàng hiệu quả, giúp nâng cao tỷ lệ bắt máy và tiết kiệm chi phí doanh nghiệp.",
-    },
-    {
-      title: "Blockchain Research",
-      techStack: [
-        "Blockchain",
-        "Ethererum",
-        "Web3",
-        "hyperledger fabric",
-        "BigchainDB",
-      ],
-      description:
-        "Tìm hiểu công nghệ Blockchain, nghiên cứu và đề xuất giải pháp ứng dụng công nghệ blockchain vào các bài toán kinh doanh của MobiFone. VD, bài toán hóa đơn điện tử, bài toán thẻ cào.",
-    },
-    {
-      title: "AIOT",
-      techStack: [
-        "Backend Developer",
-        "TypeScript",
-        "Next.js",
-        "Golang",
-        "Mainflux",
-        "InfluxDB",
-      ],
-      description:
-        "Giải pháp giúp quản lý tập trung các thiết bị IOT, hỗ trợ việc quản lý, giám sát thiết bị, theo dõi hệ thống hay tuỳ biến các kịch bản điều khiển giám sát bất thường.",
-      link: {
-        label: "aiot.mobifone.vn",
-        href: "https://aiot.mobifone.vn/",
-      },
-    },
-    {
-      title: "HashiCorp Research",
-      techStack: ["Nomad", "Consul", "Vaul", "Docker"],
-      description:
-        "Tìm hiểu và làm chủ các sản phẩm của HashiCorp, đề xuất phương án ứng dụng các sản phẩm như nomad, consul, vaul,.. thay thế các giải pháp triển khai hiện có của Viettel Cyber Security như Docker Swarm, Kubenetes.",
-      link: {
-        label: "hashicorp.com",
-        href: "https://www.hashicorp.com/",
-      },
-    },
-    {
-      title: "Ratelimit Research",
-      techStack: ["Redis", "Kafka", "RabbitMQ", "Golang"],
-      description:
-        "Nghiên cứu và đề xuất giải pháp Ratelimit cho một số nghiệp vụ cụ thể thường gặp tại Viettel Cyber Security",
+        "Virtual switchboard solution for businesses, supporting the connection of business switchboards, providing effective sales support and customer care tools, helping to improve call pick-up rates and save business costs.",
     },
     {
       title: "Fullstack Template",
@@ -212,12 +149,58 @@ export const RESUME_DATA = {
         "Docker",
       ],
       description:
-        "Một Fullstack Template tổng hợp lại các giải pháp cho những nhiệp vụ thường gặp khi xây dựng một sản phẩm phần mềm. Ví dụ, giải pháp xác thực phần quyền, giải pháp tương tác thời gian thực, giải pháp cron job,... Các giải pháp xây dựng xoay quanh framework Next.Js và theo hướng serverless.",
+        "A Fullstack Template summarizes solutions for common tasks when building a software product. For example, authentication/authorization solutions, real-time interaction solutions, cron job solutions,... Solutions built around the Next.Js framework and design with serverless concerns.",
     },
+    {
+      title: "Blockchain Research",
+      techStack: [
+        "Blockchain",
+        "Ethererum",
+        "Web3",
+        "hyperledger fabric",
+        "BigchainDB",
+      ],
+      description:
+        "Learn Blockchain technology, research and propose solutions to apply blockchain technology to MobiFone's business problems. For example, electronic invoice problem, phonecard problem.",
+    },
+    {
+      title: "AIOT",
+      techStack: [
+        "Backend Developer",
+        "TypeScript",
+        "Next.js",
+        "Golang",
+        "Mainflux",
+        "InfluxDB",
+      ],
+      description:
+        "A solution to centrally manage IoT devices, supporting device management, monitoring, system tracking, or customizing control scenarios for anomaly detection.",
+      link: {
+        label: "aiot.mobifone.vn",
+        href: "https://aiot.mobifone.vn/",
+      },
+    },
+    {
+      title: "HashiCorp Research",
+      techStack: ["Nomad", "Consul", "Vaul", "Docker"],
+      description:
+        "Learn and master HashiCorp's products, propose plans to apply products such as nomad, consul, vaul,... to replace Viettel Cyber Security's existing deployment solutions such as Docker Swarm, Kubenetes.",
+      link: {
+        label: "hashicorp.com",
+        href: "https://www.hashicorp.com/",
+      },
+    },
+    {
+      title: "Ratelimit Research",
+      techStack: ["Redis", "Kafka", "RabbitMQ", "Golang"],
+      description:
+        "Research and propose Ratelimit solutions for some specific, common operations at Viettel Cyber Security.",
+    },
+
     {
       title: "Picture Moderator",
       techStack: [
-        "Full Stack Developer",
+        "Fullstack Developer",
         "TypeScript",
         "React",
         "Node.js",
@@ -227,7 +210,7 @@ export const RESUME_DATA = {
         "Kubenetes",
       ],
       description:
-        "Một mô đun trong ứng dụng hẹn hò Mektoube, có nhiệm vụ cung cấp giao diện cho các quản trị viên của Mektoube phê duyệt ảnh do người dùng tải lên.",
+        "A module in the Mektoube dating application, which provides an interface for Mektoube administrators to approve photos uploaded by users.",
       link: {
         label: "mektoube.fr",
         href: "https://www.mektoube.fr/",
@@ -237,7 +220,7 @@ export const RESUME_DATA = {
       title: "VinhGia PMS",
       techStack: ["Javascript", "React", "CSS"],
       description:
-        "Trang chủ và trang quản trị của nhà thuốc dược phẩm Vinh Gia.",
+        "Homepage and admin page of Vinh Gia pharmaceutical pharmacy.",
     },
   ],
 } as const;

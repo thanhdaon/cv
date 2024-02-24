@@ -55,14 +55,11 @@ export const CommandMenu = ({ links }: Props) => {
         <DrawerContent>
           <div className="mx-auto w-full max-w-sm">
             <DrawerFooter>
-              <DrawerClose asChild>
-                <Button onClick={() => router.push("/vn")}>Việt Nam</Button>
-              </DrawerClose>
-              <DrawerClose asChild>
-                <Button variant="outline" onClick={() => router.push("/en")}>
-                  English
-                </Button>
-              </DrawerClose>
+              {links.map((l) => (
+                <DrawerClose key={l.url} asChild>
+                  <Button onClick={() => router.push(l.url)}>{l.title}</Button>
+                </DrawerClose>
+              ))}
             </DrawerFooter>
           </div>
         </DrawerContent>
