@@ -102,6 +102,7 @@ export const RESUME_DATA = {
     "Node.js",
     "Bun",
     "Antd",
+    "Tailwindcss",
     "Shadcn-ui",
     "GraphQL",
     "Websocket/Socketio",
