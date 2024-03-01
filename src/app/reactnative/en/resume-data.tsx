@@ -19,7 +19,7 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://thanhdaon.me",
   contact: {
     email: "thanhdaon89@gmail.com",
-    tel: "+84968037360",
+    tel: "+84968037260",
     social: [
       {
         name: "GitHub",
