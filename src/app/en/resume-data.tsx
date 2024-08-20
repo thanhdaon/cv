@@ -9,7 +9,7 @@ export const RESUME_DATA = {
   about:
     "A Full Stack Engineer focusing on building products with special attention to customers, technology, and developer experience",
   summary:
-    "As a Full Stack Engineer, I have successfully taken numerous products from 0 to 1. Currently, I primarily work with TypeScript, React, Node.js, and Golang. Additionally, I hold the role of a PM - Tech Lead, effectively leading teams and ensuring an environment where everyone can unleash their full potential. In terms of experience, I have nearly 4 years of software development expertise.",
+    "As a Full Stack Engineer, I have successfully taken numerous products from 0 to 1. Currently, I primarily work with TypeScript, React, Node.js, and Golang. Additionally, I hold the role of a PM - Tech Lead, effectively leading teams and ensuring an environment where everyone can unleash their full potential. In terms of experience, I have nearly 5 years of software development expertise.",
   avatarUrl: "https://avatars.githubusercontent.com/u/24645009?v=4",
   personalWebsiteUrl: "https://thanhdaon.me",
   contact: {
@@ -52,7 +52,7 @@ export const RESUME_DATA = {
       start: "07/2021",
       end: "Now",
       description:
-        "Direction, development of new features and establishment of project bases. Leading the team in software development tasks. Coordinating and taking responsibility for the quality and progress from the project's inception. Training new team members. Technologies: React/Next.js, TypeScript, Golang, Antd, Shadcn-ui, Trpc, Drizzle, MySQL, Docker.",
+        "Leading the development of the Mobifone Meet platform. Technologies: React/Next.js, TypeScript, Golang, Antd, Shadcn-ui, Trpc, Drizzle, MySQL, Docker.",
     },
     {
       company: "Viettel Cyber Security",
@@ -63,7 +63,7 @@ export const RESUME_DATA = {
       start: "05/2020",
       end: "06/2021",
       description:
-        "Advising on solutions for common issues such as application deployment strategies, distributed access limitation solutions, etc., for software development teams. Technologies involved include Nomad, Consul, Redis, Kafka, and RabbitMQ.",
+        "Advising on solutions for common issues for software development teams. Technologies involved include Nomad, Consul, Redis, Kafka, and RabbitMQ.",
     },
     {
       company: "OpenTechiz",
@@ -100,7 +100,7 @@ export const RESUME_DATA = {
     {
       title: "MobiFone Meet",
       techStack: [
-        "Fullstack Developer / Tech Lead / PM",
+        "Fullstack Developer / Tech Lead",
         "TypeScript",
         "Next.js",
         "Golang",
@@ -113,7 +113,7 @@ export const RESUME_DATA = {
         "WebRTC",
       ],
       description:
-        "Build and develop the MobiFone Meet application to become an online video conferencing solution for individuals, organizations, businesses, and state agencies. The solution was recognized as a potential national digital platform on November 29, 2023 and has been put into practical use.",
+        "An online video conferencing solution for individuals, organizations, businesses, and state agencies.",
       link: {
         label: "meet.mobifone.com",
         href: "https://meet.mobifone.vn",
@@ -131,7 +131,7 @@ export const RESUME_DATA = {
         "Mysql",
       ],
       description:
-        "Virtual switchboard solution for businesses, supporting the connection of business switchboards, providing effective sales support and customer care tools, helping to improve call pick-up rates and save business costs.",
+        "A virtual switchboard solution that connects business phone systems, enhances sales support, and reduces costs.",
     },
     {
       title: "Fullstack Template",
@@ -150,7 +150,7 @@ export const RESUME_DATA = {
         "Docker",
       ],
       description:
-        "A Fullstack Template summarizes solutions for common tasks when building a software product. For example, authentication/authorization solutions, real-time interaction solutions, cron job solutions,... Solutions built around the Next.Js framework and design with serverless concerns.",
+        "A Fullstack Template summarizes solutions for common tasks when building a software product.",
     },
     {
       title: "Blockchain Research",
@@ -162,7 +162,7 @@ export const RESUME_DATA = {
         "BigchainDB",
       ],
       description:
-        "Learn Blockchain technology, research and propose solutions to apply blockchain technology to MobiFone's business problems. For example, electronic invoice problem, phonecard problem.",
+        "Research and propose solutions to apply blockchain technology to MobiFone's business problems.",
     },
     {
       title: "AIOT",
@@ -175,7 +175,7 @@ export const RESUME_DATA = {
         "InfluxDB",
       ],
       description:
-        "A solution to centrally manage IoT devices, supporting device management, monitoring, system tracking, or customizing control scenarios for anomaly detection.",
+        "A solution to centrally manage IoT devices.",
       link: {
         label: "aiot.mobifone.vn",
         href: "https://aiot.mobifone.vn/",
@@ -185,7 +185,7 @@ export const RESUME_DATA = {
       title: "HashiCorp Research",
       techStack: ["Nomad", "Consul", "Vaul", "Docker"],
       description:
-        "Learn and master HashiCorp's products, propose plans to apply products such as nomad, consul, vaul,... to replace Viettel Cyber Security's existing deployment solutions such as Docker Swarm, Kubenetes.",
+        "Propose plans to apply HashiCorp products to replace VCS's existing deployment solutions with k8s.",
       link: {
         label: "hashicorp.com",
         href: "https://www.hashicorp.com/",
@@ -195,7 +195,7 @@ export const RESUME_DATA = {
       title: "Ratelimit Research",
       techStack: ["Redis", "Kafka", "RabbitMQ", "Golang"],
       description:
-        "Research and propose Ratelimit solutions for some specific, common operations at Viettel Cyber Security.",
+        "Research and propose rate-limiting solutions for common operations at VCS to prevent abuse and ensure system stability.",
     },
 
     {
@@ -211,7 +211,7 @@ export const RESUME_DATA = {
         "Kubenetes",
       ],
       description:
-        "A module in the Mektoube dating application, which provides an interface for Mektoube administrators to approve photos uploaded by users.",
+        "Picture Moderator module in Mekoube, a Dating app",
       link: {
         label: "mektoube.fr",
         href: "https://www.mektoube.fr/",
@@ -219,7 +219,7 @@ export const RESUME_DATA = {
     },
     {
       title: "VinhGia PMS",
-      techStack: ["Javascript", "React", "CSS"],
+      techStack: ["Javascript", "Typescript", "React", "Bootstrap"],
       description:
         "Homepage and admin page of Vinh Gia pharmaceutical pharmacy.",
     },
