@@ -44,13 +44,24 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Picket Homes",
+      link: "https://app.pickethomes.com",
+      badges: [],
+      title: "Fullstack Developer",
+      logo: ParabolLogo,
+      start: "01/2024",
+      end: "Now",
+      description:
+        "Developed and Implemented new features for Picket real-estate platform.",
+    },
+    {
       company: "MobiFone IT Center",
       link: "https://it.mobifone.vn/",
       badges: [],
       title: "Fullstack Developer - Backend Team Leader",
       logo: ParabolLogo,
       start: "07/2021",
-      end: "Now",
+      end: "01/2024",
       description:
         "Leading the development of the Mobifone Meet platform. Technologies: React/Next.js, TypeScript, Golang, Antd, Shadcn-ui, Trpc, Drizzle, MySQL, Docker.",
     },
@@ -81,22 +92,29 @@ export const RESUME_DATA = {
     "JavaScript",
     "TypeScript",
     "Golang",
-    "Java",
+    "Python",
     "React/Next.js",
     "Node.js",
-    "Bun",
     "Antd",
     "Tailwindcss",
-    "Shadcn-ui",
     "GraphQL",
-    "Websocket/Socketio",
-    "RestAPI/Trpc",
+    "Websocket",
     "Mysql/Postgres/Mongo",
     "Drizzle/Prisma",
     "Docker",
     "WebRTC",
   ],
   projects: [
+    {
+      title: "Picket",
+      techStack: ["React", "Typescript", "Nodejs", "Python", "K8s", "Docker"],
+      description:
+        "A one-stop real estate solution for buy, sell, and manage investments with ease.",
+      link: {
+        label: "pickethomes.com",
+        href: "https://app.pickethomes.com",
+      },
+    },
     {
       title: "MobiFone Meet",
       techStack: [
@@ -153,7 +171,7 @@ export const RESUME_DATA = {
         "A Fullstack Template summarizes solutions for common tasks when building a software product.",
     },
     {
-      title: "Blockchain Research",
+      title: "MobiFone eContract",
       techStack: [
         "Blockchain",
         "Ethererum",
@@ -162,7 +180,7 @@ export const RESUME_DATA = {
         "BigchainDB",
       ],
       description:
-        "Research and propose solutions to apply blockchain technology to MobiFone's business problems.",
+        "Research and propose solutions to apply blockchain technology to MobiFone eContract system.",
     },
     {
       title: "AIOT",
@@ -174,23 +192,13 @@ export const RESUME_DATA = {
         "Mainflux",
         "InfluxDB",
       ],
-      description:
-        "A solution to centrally manage IoT devices.",
+      description: "A solution to centrally manage IoT devices.",
       link: {
         label: "aiot.mobifone.vn",
         href: "https://aiot.mobifone.vn/",
       },
     },
-    {
-      title: "HashiCorp Research",
-      techStack: ["Nomad", "Consul", "Vaul", "Docker"],
-      description:
-        "Propose plans to apply HashiCorp products to replace VCS's existing deployment solutions with k8s.",
-      link: {
-        label: "hashicorp.com",
-        href: "https://www.hashicorp.com/",
-      },
-    },
+
     {
       title: "Ratelimit Research",
       techStack: ["Redis", "Kafka", "RabbitMQ", "Golang"],
@@ -210,8 +218,7 @@ export const RESUME_DATA = {
         "Docker",
         "Kubenetes",
       ],
-      description:
-        "Picture Moderator module in Mekoube, a Dating app",
+      description: "Picture Moderator module in Mekoube, a Dating app",
       link: {
         label: "mektoube.fr",
         href: "https://www.mektoube.fr/",
