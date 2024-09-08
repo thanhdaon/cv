@@ -56,6 +56,7 @@ export const RESUME_DATA = {
         "Developed and Implemented new features for Picket real-estate platform.",
     },
     {
+      hide: false,
       company: "MobiFone IT Center",
       link: "https://it.mobifone.vn/",
       badges: [],
@@ -67,6 +68,7 @@ export const RESUME_DATA = {
         "Leading the development of the Mobifone Meet platform. Technologies: React/Next.js, TypeScript, Golang, Antd, Shadcn-ui, Trpc, Drizzle, MySQL, Docker.",
     },
     {
+      hide: false,
       company: "Viettel Cyber Security",
       link: "https://viettelcybersecurity.com",
       badges: [],
@@ -78,6 +80,7 @@ export const RESUME_DATA = {
         "Advising on solutions for common issues for software development teams. Technologies involved include Nomad, Consul, Redis, Kafka, and RabbitMQ.",
     },
     {
+      hide: false,
       company: "OpenTechiz",
       link: "https://www.opentechiz.com",
       badges: ["Fresher"],
