@@ -44,6 +44,7 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      hide: true,
       company: "Picket Homes",
       link: "https://app.pickethomes.com",
       badges: [],
@@ -60,8 +61,8 @@ export const RESUME_DATA = {
       badges: [],
       title: "Fullstack Developer - Backend Team Leader",
       logo: ParabolLogo,
-      start: "07/2021",
-      end: "01/2024",
+      start: "04/2022",
+      end: "Now",
       description:
         "Leading the development of the Mobifone Meet platform. Technologies: React/Next.js, TypeScript, Golang, Antd, Shadcn-ui, Trpc, Drizzle, MySQL, Docker.",
     },
@@ -71,8 +72,8 @@ export const RESUME_DATA = {
       badges: [],
       title: "Solution Engineer",
       logo: ClevertechLogo,
-      start: "05/2020",
-      end: "06/2021",
+      start: "09/2020",
+      end: "04/2022",
       description:
         "Advising on solutions for common issues for software development teams. Technologies involved include Nomad, Consul, Redis, Kafka, and RabbitMQ.",
     },
@@ -83,7 +84,7 @@ export const RESUME_DATA = {
       title: "Fullstack Developer",
       logo: JojoMobileLogo,
       start: "06/2018",
-      end: "04/2020",
+      end: "08/2020",
       description:
         "Develop timekeeping app for internal use within the company. Develop and test photo approval module in Mektoube application.",
     },
